@@ -1,13 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Material</title>
-</head>
-<body>
-  <div class="container">
-    
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Google Material</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="item">
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__text">Line item selected</div>
+            <div class="item__checkbox">
+              <input checked type="checkbox" />
+            </div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__text">Line item unselected</div>
+            <div class="item__checkbox">
+              <input type="checkbox" />
+            </div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__text">Line item selected</div>
+            <div class="item__checkbox">
+              <input checked type="checkbox" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__inner-box">
+            <div class="item__icon">
+              <img src="./img/wifi.svg" alt="wifi icon" />
+            </div>
+            <div class="item__text">WI-FI</div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__icon">
+              <img src="./img/bluetooth.svg" alt="wifi icon" />
+            </div>
+            <div class="item__text">Bluetooth</div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__icon">
+              <img src="./img/data-usage.svg" alt="wifi icon" />
+            </div>
+            <div class="item__text">Data usage</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__inner-box item__inner-box_h-free mb-3">
+            <div class="item__text">Single-line item</div>
+          </div>
+          <div class="item__inner-box item__inner-box_h-free mb-3">
+            <div class="item__text">Single-line item</div>
+          </div>
+          <div class="item__inner-box item__inner-box_h-free mb-3">
+            <div class="item__text">Single-line item</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__text">Single-line item</div>
+            <div class="item__sm-square"></div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__text">Single-line item</div>
+            <div class="item__sm-square"></div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__text">Single-line item</div>
+            <div class="item__sm-square"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__inner-box">
+            <div class="item__two-line">
+              <div class="item__first-line">Two-line item</div>
+              <div class="item__last-line">Secondary text</div>
+            </div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__two-line">
+              <div class="item__first-line">Two-line item</div>
+              <div class="item__last-line">Secondary text</div>
+            </div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__two-line">
+              <div class="item__first-line">Two-line item</div>
+              <div class="item__last-line">Secondary text</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__two-line item__text">
+              <div class="item__first-line">Two-line item</div>
+              <div class="item__last-line">Secondary text</div>
+            </div>
+            <div class="item__sm-square"></div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__two-line item__text">
+              <div class="item__first-line">Two-line item</div>
+              <div class="item__last-line">Secondary text</div>
+            </div>
+            <div class="item__sm-square"></div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__two-line item__text">
+              <div class="item__first-line">Two-line item</div>
+              <div class="item__last-line">Secondary text</div>
+            </div>
+            <div class="item__sm-square"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__inner-box">
+            <div class="item__three-line">
+              <div class="item__first-line">Three-line item</div>
+              <div class="item__last-line">
+                Secondary line text Lorem ipsum dolor sit amet,
+              </div>
+              <div class="item__last-line">
+                consectetur adipiscing elit. Nam massa quam.
+              </div>
+            </div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__three-line">
+              <div class="item__first-line">Three-line item</div>
+              <div class="item__last-line">
+                Secondary line text Lorem ipsum dolor sit amet,
+              </div>
+              <div class="item__last-line">
+                consectetur adipiscing elit. Nam massa quam.
+              </div>
+            </div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__three-line">
+              <div class="item__first-line">Three-line item</div>
+              <div class="item__last-line">
+                Secondary line text Lorem ipsum dolor sit amet,
+              </div>
+              <div class="item__last-line">
+                consectetur adipiscing elit. Nam massa quam.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__three-line item__text">
+              <div class="item__first-line">Three-line item</div>
+              <div class="item__last-line">Secondary line text lorem ipsum</div>
+              <div class="item__last-line">
+                dapibus, neque id cursus faucibus
+              </div>
+            </div>
+            <div class="item__sm-square"></div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__three-line item__text">
+              <div class="item__first-line">Three-line item</div>
+              <div class="item__last-line">Secondary line text lorem ipsum</div>
+              <div class="item__last-line">
+                dapibus, neque id cursus faucibus
+              </div>
+            </div>
+            <div class="item__sm-square"></div>
+          </div>
+          <div class="item__inner-box">
+            <div class="item__circle"></div>
+            <div class="item__three-line item__text">
+              <div class="item__first-line">Three-line item</div>
+              <div class="item__last-line">Secondary line text lorem ipsum</div>
+              <div class="item__last-line">
+                dapibus, neque id cursus faucibus
+              </div>
+            </div>
+            <div class="item__sm-square"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
